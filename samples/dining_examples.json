@@ -1,0 +1,41 @@
+{
+  "examples": [
+    {
+      "input": "Need a sunset-view table for two tonight; gluten-free menu a must",
+      "output": {
+        "intent_category": "dining",
+        "entities": {
+          "date": "2024-01-15",
+          "time": null,
+          "location": null,
+          "party_size": 2,
+          "dietary_restrictions": ["gluten-free"],
+          "additional_requirements": ["sunset-view"]
+        },
+        "confidence_score": 0.95,
+        "follow_up_questions": [
+          "What time would you prefer for your reservation?",
+          "Which city or area are you looking for restaurants in?"
+        ],
+        "reasoning": "Clear dining intent with specific requirements for sunset view and gluten-free options"
+      }
+    },
+    {
+      "input": "Book Italian restaurant for anniversary dinner",
+      "output": {
+        "intent_category": "dining",
+        "entities": {
+          "cuisine": "Italian",
+          "additional_requirements": ["anniversary dinner"]
+        },
+        "confidence_score": 0.92,
+        "follow_up_questions": [
+          "What date would you like to make the reservation?",
+          "How many people will be dining?",
+          "What time do you prefer?",
+          "Do you have any dietary restrictions?"
+        ]
+      }
+    }
+  ]
+}
