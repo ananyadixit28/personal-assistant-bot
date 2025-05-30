@@ -1,4 +1,4 @@
-from duckduckgo_search import ddg  
+from duckduckgo_search import DDGS  
 from typing import List
 from app.models import WebSearchResult
 import logging
@@ -8,10 +8,10 @@ logger = logging.getLogger(__name__)
 class WebSearchService:
     def search(self, query: str, max_results: int = 5) -> List[WebSearchResult]:
         """
-        Perform web search using DuckDuckGo (stable ddg() method)
+        Perform web search using DuckDuckGo (stable DDGS() method)
         """
         try:
-            search_results = ddg(query, max_results=max_results)
+            search_results = DDGS().text(query, max_results=max_results)
             if not search_results:
                 return []
 
