@@ -124,22 +124,6 @@ Process user input and return structured response.
 **Input:** "Need a sunset-view table for two tonight; gluten-free menu a must"
 **Output:** See samples/dining_examples.json
 
-### Travel Example  
-**Input:** "Planning a weekend trip to Paris for 3 people next month"
-**Output:** See samples/travel_examples.json
-
-### Gifting Example
-**Input:** "Need a birthday gift for my 25-year-old sister who loves art"
-**Output:** See samples/gifting_examples.json
-
-### Cab Booking Example
-**Input:** "Book a cab to the airport tomorrow morning, need a large vehicle"
-**Output:** See samples/cab_booking_examples.json
-
-### Other Category with Web Search
-**Input:** "How to update address in Aadhar card online"
-**Output:** See samples/other_examples.json
-
 ## Testing
 
 Run the test suite:
