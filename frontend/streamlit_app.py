@@ -26,7 +26,7 @@ with col1:
     
     # Sample inputs for quick testing
     sample_inputs = {
-        "Dining": "",
+        "Dining": "Need a sunset-view table for two tonight",
         "Travel": "Planning a weekend trip to Paris for 3 people next month",
         "Gifting": "Need a birthday gift for my 25-year-old sister who loves art",
         "Cab Booking": "Book a cab to the airport tomorrow morning, need a large vehicle",
