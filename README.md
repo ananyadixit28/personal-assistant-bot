@@ -1,6 +1,7 @@
 # Personal Assistant Bot
 
 A sophisticated personal assistant bot that converts fuzzy natural language inputs into structured JSON responses with intent classification, entity extraction, and web search capabilities.
+![image](https://github.com/user-attachments/assets/edfd1397-7217-4432-aac8-663b88804ee8)
 
 ## Features
 
